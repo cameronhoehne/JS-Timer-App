@@ -6,4 +6,4 @@ This project helped me learn how to logically think through the process of devel
 
 I added additional functionalities to reset on user input and to reset on completion.
 
-View the app in action HERE.
+View the app in action [HERE](https://codepen.io/CameronHoehne/pen/xxpPJKE).

@@ -1,0 +1,129 @@
+/* Global Styling */
+
+* {
+    font: inherit;
+  padding: 0;
+  margin: 0;
+}
+  
+/* Styling of Main Elements */
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;  
+  font-family: "Montserrat", sans-serif;
+    background-color: beige;
+}
+
+.timer {
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* Timer H1 and P Styling */
+
+.header {
+    font-size: 5em;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .2em;
+}
+
+.paragraph {
+    font-size: 1.2em;
+    padding: 1em;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+/* Counter Styling */
+
+    /* This determines the size of the SVG Circle */
+.dial {
+    height: 400px;
+    width: 400px;
+}
+
+.test-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.timer input {
+  background-color: transparent;
+  border: none;
+  font-size: 5em;
+  text-align: center;
+}
+
+.timer-count {
+    position: absolute;
+}
+
+.timer input:focus {
+    outline: none;
+}
+
+/* Button Styling */
+
+.buttons {
+    margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+
+#start {
+    font-size: 5em;
+    margin: .2em;
+    transition: .5s;
+    color: black;
+}
+
+#start:hover {
+    transform: scale(1.2)
+}
+
+#pause {
+    font-size: 5em;
+    margin: .2em;
+    transition: .5s;
+  color: black;
+}
+
+#pause:hover {
+    transform: scale(1.2)
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+.reset:hover {
+    transform: rotate(180deg)
+}
+
+#reset {
+    font-size: 5em;
+    color: black;
+}
+
+.timer button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.timer button:focus {
+    outline: none;
+}
